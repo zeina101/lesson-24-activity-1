@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+
+body{
+    font-family: Arial, sens serif;
+    background-color:blanchedalmond;
+    margin: 0;
+    padding: 0;
+    }
+
+h1{
+    color: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease;
+    /* Smooth transitions for style changes */
+
+}
+
+button{
+    background-color:aquamarine;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    curser: pointer;
+    transition: all 0.3s ease;
+    /* Smooth hover effect */
+
+}
+
+button.hover{
+    background-color:aqua ;
+    /* Slightly darker aqua on hover */
+    transform: scale(1.1);
+    /* Make the button grow slightly */
+}
+
+</style>
+</head>
+</html>

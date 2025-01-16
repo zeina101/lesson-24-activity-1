@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM</title>
+    </head>
+
+    <body>
+        <center>
+            <h1 id = "heading">So, do you wanna play?</h1>
+            <button onclick = "chengeText()">Click this button to play the game.</button>
+
+            <script>
+                function ChangeText() {
+                    var heading = document.getElementById("heading");
+                    heading.innerHTML = "Great! You're in. Now, let's play.";
+                    heading.style.color = "black"; //Change heading colour
+                    heading.style.fontsize = "3cm"; //  Make te heading larger
+                    heading.style.textShadow = "2px 2px 5px gray"; //Add shadow effect
+                    document.body.style.backgroundColor = "blue"; //Change the vb==background color
+
+               </script>
+
+
+
+        </center>
+</html>
